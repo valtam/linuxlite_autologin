@@ -1,17 +1,21 @@
 Enabling Auto-login Linux Lite
+
 Two methods to choose from:
+
+Method 1:
 
 1. Open a terminal, type in the following:
 
-Code:
 gksu lxdm-config
-Place a tick in Automatic Login
+Place a tick in 'Automatic Login'
 
 Next time you reboot you will auto-login.
 
+Method 2:
+
 2. Open a terminal, type in the following:
 
-Code:
 sudo leafpad /etc/lxdm/lxdm.conf
 
-At line 3 remove the # from the start of the line, put your login name after the = sign and save the file. Next time you reboot, you will automatically login.
+At line 3 remove the # from the start of the line, put your login name after the = sign and save the file.
+Next time you reboot, you will automatically login.
